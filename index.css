@@ -1789,6 +1789,7 @@ select:focus
     height: 100px;
     /* background-color: rgb(79, 239, 151); */
     display: flex;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
