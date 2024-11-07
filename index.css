@@ -1489,7 +1489,7 @@ select:focus
 
 
 .cardInfo3{
-    height: 580px;
+    height: 560px;
     /* background-color: blue; */
     width: 100%;
     display: flex;
@@ -1500,7 +1500,7 @@ select:focus
 
 
 .cardContainer3{
-    height: 450px;
+    height: 420px;
     width: 90%;
     /* background-color: red; */
 }
@@ -1518,18 +1518,18 @@ select:focus
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     justify-content: flex-start;
-   height: auto;
+   height: 400px;
 
 }
 
 .card3__container{
     width: 85%;
-    height: 350px;
-    /* background-color: gray; */
+    height: 400px;
+    background-color: gray;
 }
 
 
-.badge{
+.mybadge{
     right: 5px;
 }
 
@@ -1851,6 +1851,11 @@ select:focus
 @media only screen and (max-width: 992px) and (min-width: 792px) {
 
 
+
+    .mybadge{
+        right: 5px;
+    }
+    
     .navbar-collapse{
         /* background-color: rgb(11, 11, 244); */
        border-bottom:1px solid black ;
