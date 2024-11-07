@@ -1525,7 +1525,7 @@ select:focus
 .card3__container{
     width: 85%;
     height: 400px;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 
