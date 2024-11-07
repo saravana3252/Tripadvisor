@@ -505,7 +505,7 @@ color: white !important;
 
 
 .cardInfo3{
-    height: 550px;
+    height: 600px;
     /* background-color: blue; */
     width: 100%;
     display: flex;
@@ -515,7 +515,7 @@ color: white !important;
 
 
 .cardContainer3{
-    height: 500px;
+    height: 550px;
     width: 90%;
     /* background-color: red; */
 }
@@ -528,9 +528,9 @@ color: white !important;
 
 .card3{
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: flex;
-    gap: 18px;
+    gap: 10px;
     overflow-x: auto; 
     overflow-y: hidden; 
     scroll-snap-type: x mandatory;
@@ -541,12 +541,12 @@ color: white !important;
 
 .card3__container{
     width: 23.75%;
-    height: 400px;
+    height: 450px;
     /* background-color: gray; */
     flex-shrink: 0; 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     scroll-snap-align: start; 
 }
 
@@ -1500,7 +1500,7 @@ select:focus
 
 
 .cardContainer3{
-    height: 500px;
+    height: 450px;
     width: 90%;
     /* background-color: red; */
 }
@@ -1518,21 +1518,19 @@ select:focus
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     justify-content: flex-start;
-
+   height: auto;
 
 }
 
 .card3__container{
     width: 85%;
-    height: 400px;
+    height: 350px;
     /* background-color: gray; */
 }
 
 
-.card3__overlay{
-    text-align: center;
-    display: flex;
-    justify-content: center;
+.badge{
+    right: 5px;
 }
 
 
@@ -2139,6 +2137,7 @@ select:focus
     .card__overlay:hover{
         height: 300px;
     }
+    
     
     
     
