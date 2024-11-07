@@ -769,103 +769,98 @@ color: white !important;
 }
 
 
-.cardInfo6{
+.cardInfo6 {
     height: 430px;
     width: 100%;
-    /* background-color: black; */
     padding-top: 50px;
     display: flex;
     justify-content: center;
-   
-}
-.cardContainer6{
+  }
+  
+  .cardContainer6 {
     height: 360px;
     width: 90%;
-    /* background-color: red; */
-}
-
-.cardCont__header6{
+  }
+  
+  .cardCont__header6 {
     height: 50px;
     width: 100%;
-    /* background-color: blue; */
     padding-left: 25px;
-}
-
-.card6{
+  }
+  
+  .card6 {
     width: 100%;
     height: 300px;
-     /* background-color: yellow;  */
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: space-evenly;
-
-}
-
-.card6__container{
+    flex-wrap: nowrap; 
+    justify-content: flex-start; 
+    gap: 15px; 
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory; 
+  }
+  
+  .card6__container {
     width: 23%;
     height: 300px;
-    /* background-color: gray; */
-}
-
-.card6__img{
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+  
+  .card6__img {
     width: 100%;
     height: 200px;
-    /* background-color: pink; */
     background-image: url("./images/card6img.jpg");
-    background-size:cover ;
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
-}
-.mycard6img2{
+  }
+
+
+  
+  .mycard6img2 {
     background-image: url("./images/card6img2.jpg");
-    background-size:cover ;
-    border-radius: 10px;
-}
-.mycard6img3{
+  }
+  
+  .mycard6img3 {
     background-image: url("./images/card6img3.jpg");
-    background-size:cover ;
-    border-radius: 10px;
-}
-.card6__info{
+  }
+  
+  .card6__info {
     width: 100%;
     height: 100px;
-    /* background-color: lightgreen; */
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-}
-
-.card6__info p{
+  }
+  
+  .card6__info p {
     font-weight: 500;
     font-size: 20px;
-}
-.card6__info a{
+  }
+  
+  .card6__info a {
     text-decoration: none;
     color: black;
-    font-weight:600 ;
-}
-.mya{
-    font-weight: 300 !important;
-}
-
-
-
-.card6__overlay{
+    font-weight: 600;
+  }
+  
+  .card6__overlay {
     height: 250px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
     transition: 0.5s;
     cursor: pointer;
-}
-
-.card6__overlay:hover{
+  }
+  
+  .card6__overlay:hover {
     background-color: rgba(234, 234, 234, 0.24);
-}
-
-.myinfoc6{
+  }
+  
+  .myinfoc6 {
     height: 100px;
-}
+  }
 
 
 .banner3{
@@ -1371,7 +1366,7 @@ select:focus
     }
     .cardContainer{
         width: 90%;
-        height: 470px;
+        height: 440px;
         /* background-color: yellow;  */
         /* padding: 10px; */
        
@@ -1447,7 +1442,7 @@ select:focus
     }
     
 .cardInfo2{
-    height: 670px;
+    height: 640px;
     width: 100%;
     /* background-color: black; */
     padding-top: 50px;
@@ -1599,82 +1594,28 @@ select:focus
 
 
 
+.card6 {
+    flex-wrap: nowrap; 
+  }
+  
+  .card6__container {
+    width: 80%; 
+    min-width: 220px; 
+  }
+  
+ 
+  .card6::-webkit-scrollbar {
+    height: 8px; 
+  }
 
-.cardInfo6{
-    height: 1150px;
-   
-   
-}
-
-.cardContainer6{
-    height: 1000px;
-    width: 90%;
-    /* background-color: red; */
-}
-
-.cardCont__header6{
-    height: 50px;
-    width: 100%;
-    /* background-color: blue; */
-    /* padding-left: 25px; */
-}
-
-.card6{
-   width: 100%;
-    height: 300px;
-     /* background-color: yellow;  */
-    display: flex;
-    flex-direction: row;
-   
-}
-
-.card6__container{
-    width: 100%;
-    /* height: 300px; */
-    /* background-color: gray; */
-    
-}
-
-.card6__img{
-    width: 100%;
-    height: 200px;
-    /* background-color: pink; */
-    background-image: url("./images/card6img.jpg");
-    background-size:cover ;
+  .card6::-webkit-scrollbar-thumb {
+    background: #888; 
     border-radius: 10px;
-}
-.mycard6img2{
-    background-image: url("./images/card6img2.jpg");
-    background-size:cover ;
-    border-radius: 10px;
-}
-.mycard6img3{
-    background-image: url("./images/card6img3.jpg");
-    background-size:cover ;
-    border-radius: 10px;
-}
-.card6__info{
-    width: 100%;
-    height: 100px;
-    /* background-color: lightgreen; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-}
+  }
 
-.card6__info p{
-    font-weight: 500;
-    font-size: 20px;
-}
-.card6__info a{
-    text-decoration: none;
-    color: black;
-    font-weight:600 ;
-}
-.mya{
-    font-weight: 300 !important;
-}
+  .card6::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
 
 
