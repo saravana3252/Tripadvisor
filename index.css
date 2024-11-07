@@ -1248,12 +1248,13 @@ select:focus
     }
     
     .search-info{
-        width: 90%;
-        height: 250px;
+        
+        width: 99%;
+        /* height: 100px; */
         /* background-color: blue; */
         display: flex;
         flex-wrap: wrap;
-        /* flex-grow: 1; */
+        flex-grow: 1;
         justify-content: space-evenly;
         align-items: center;
         font-size: 18px;
