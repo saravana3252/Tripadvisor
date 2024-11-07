@@ -179,8 +179,8 @@ color: white !important;
 .search-info{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    font-size: 15px; 
+    gap: 25px;
+    font-size: 18px; 
     margin-top: 10px;  
     text-wrap: nowrap;
     cursor: pointer;
@@ -1319,13 +1319,6 @@ select:focus
         margin-right: 10px;
         
     }
-
-
-
-
-
-
-
 
 
 
