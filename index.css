@@ -1486,6 +1486,11 @@ select:focus
         flex-shrink: 0;
 }
 
+.card2__info{
+  align-items: flex-start;
+}
+
+
 
 
 .cardInfo3{
