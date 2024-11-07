@@ -1850,10 +1850,13 @@ select:focus
 
 @media only screen and (max-width: 992px) and (min-width: 792px) {
 
-
+.mycardinfo1{
+    padding-top: 30px;
+    /* background-color: blue !important; */
+}
 
     .mybadge{
-        right: 0px !important;
+        right: 10px !important;
     }
     
     .navbar-collapse{
@@ -2105,7 +2108,7 @@ select:focus
     .card{
         width:30%;
         height: 300px;
-        background-color: blue;
+        /* background-color: blue; */
        background-repeat: no-repeat;
        background-size: cover;
         /* background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/6d/e6/26/caption.jpg?w=300&amp;h=-1&amp;s=1"); */
