@@ -328,7 +328,7 @@ color: white !important;
    height: 300px;
    /* background-color: pink; */
    display: flex;
-  
+   overflow-x: hidden; 
    gap:15px;
    
 
@@ -344,6 +344,7 @@ color: white !important;
    color: white;
   cursor: pointer;
   transition: .5s;
+  scroll-snap-align: start;
 
 }
 
@@ -438,12 +439,9 @@ color: white !important;
 }
 
 .card2{
-    width: 100%;
-    height: 400px;
-     /* background-color: yellow;  */
+   width: 100%;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
     justify-content: space-evenly;
 
 }
@@ -507,7 +505,7 @@ color: white !important;
 
 
 .cardInfo3{
-    height: 500px;
+    height: 550px;
     /* background-color: blue; */
     width: 100%;
     display: flex;
@@ -531,11 +529,13 @@ color: white !important;
 .card3{
     width: 100%;
     height: 400px;
-     /* background-color: yellow;  */
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: space-evenly;
+    gap: 18px;
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    justify-content: flex-start;
 
 }
 
@@ -543,6 +543,11 @@ color: white !important;
     width: 23.75%;
     height: 400px;
     /* background-color: gray; */
+    flex-shrink: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    scroll-snap-align: start; 
 }
 
 .card3__img{
@@ -1360,9 +1365,13 @@ select:focus
         
        
     }
+
+    .mycardinfo1{
+        padding-top:30px ;
+    }
     .cardContainer{
         width: 90%;
-        height: auto;
+        height: 470px;
         /* background-color: yellow;  */
         /* padding: 10px; */
        
@@ -1377,28 +1386,19 @@ select:focus
     }
     
     .cardcont__card{
-       width: 100%;
-       height: auto;
-       /* background-color: pink; */
-       display: flex;
-       flex-wrap: wrap;
-       gap:15px;
+        gap: 10px;  
+        overflow-x: auto;  
+        scroll-snap-type: x mandatory;  
+        -webkit-overflow-scrolling: touch; 
        
     
     }
     .card{
-        width:100%;
-        height: 300px;
-        /* background-color: blue; */
-       background-repeat: no-repeat;
-       background-size: cover;
-        /* background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/6d/e6/26/caption.jpg?w=300&amp;h=-1&amp;s=1"); */
-       display: flex;
-       flex-wrap: wrap;
-        justify-content:flex-end;
-       color: white;
-      cursor: pointer;
-      transition: .5s;
+        width: 80%;  
+        height: 250px;
+        flex-shrink: 0;  
+        background-repeat: no-repeat;
+        background-size:cover ;
     
     }
     
@@ -1447,7 +1447,7 @@ select:focus
     }
     
 .cardInfo2{
-    height: 1400px;
+    height: 670px;
     width: 100%;
     /* background-color: black; */
     padding-top: 50px;
@@ -1472,20 +1472,24 @@ select:focus
     height: auto;
     /* background-color: yellow; */
     display: flex;
-    justify-content: space-evenly;
+    gap: 10px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch;
 
 }
 
 .card2__container{
-    width: 100%;
-    height: 400px;
-    /* background-color: gray; */
+    width: 80%;  
+        height: 400px;  
+        flex-shrink: 0;
 }
 
 
 
 .cardInfo3{
-    height: 1750px;
+    height: 580px;
     /* background-color: blue; */
     width: 100%;
     display: flex;
@@ -1508,25 +1512,25 @@ select:focus
 }
 
 .card3{
-    width: 100%;
-    height: 400px;
-     /* background-color: yellow;  */
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: space-evenly;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    justify-content: flex-start;
+
 
 }
 
 .card3__container{
-    width: 100%;
+    width: 85%;
     height: 400px;
     /* background-color: gray; */
 }
 
 
 .cardInfo4{
-    height: 1200px;
+    height: 550px;
     width: 100%;
     background-color: rgb(255, 246, 238);
     padding-top: 50px;
@@ -1551,9 +1555,15 @@ select:focus
     height: 400px;
      /* background-color: yellow;  */
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: space-evenly;
+    /* flex-wrap: wrap;
+    flex-grow: 1; */
+    display: flex;
+    gap: 15px;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+    justify-content: flex-start;
+   
 
 }
 
