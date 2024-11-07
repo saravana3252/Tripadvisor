@@ -1871,7 +1871,7 @@ select:focus
 
     .navbar-collapse{
         /* background-color: rgb(11, 11, 244); */
-        border: 1px solid black;
+       border-bottom:1px solid black ;
         justify-content: space-evenly;
        margin: 0 !important;
         padding: 0 !important;  
