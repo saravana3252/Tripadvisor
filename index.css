@@ -1853,7 +1853,7 @@ select:focus
 
 
     .mybadge{
-        right: 5px;
+        right: 0px !important;
     }
     
     .navbar-collapse{
