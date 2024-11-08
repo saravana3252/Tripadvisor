@@ -653,15 +653,24 @@ color: white !important;
     height: 400px;
      /* background-color: yellow;  */
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    /* flex-grow: 1; */
+    justify-content: flex-start;
+    white-space: nowrap;
 
 }
 
 .card4__container{
     width: 32%;
-    height: 400px;
+    height: auto;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
     /* background-color: gray; */
 }
 
@@ -682,9 +691,13 @@ color: white !important;
 }
 .card4__info{
     width: 100%;
-    height: 80px;
+    height: 50px;
+    flex-grow: 1;
     /* background-color: lightgreen; */
     display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 10px;
 }
@@ -693,6 +706,8 @@ color: white !important;
     text-decoration: none;
     color: black;
     font-weight:600 ;
+    word-wrap: break-word;
+    white-space: normal;
 }
 .mya{
     font-weight: 300 !important;
@@ -1565,7 +1580,7 @@ select:focus
 
 .card4{
     width: 100%;
-    height: 400px;
+    height: 350px;
      /* background-color: yellow;  */
     display: flex;
     /* flex-wrap: wrap;
@@ -1573,17 +1588,51 @@ select:focus
     display: flex;
     gap: 15px;
     overflow-x: auto; 
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch; 
     justify-content: flex-start;
+    white-space: nowrap;
    
 
 }
 
 .card4__container{
-    width: 100%;
-    height: 350px;
+    flex: 0 0 auto;
+    width: 80%;
+    height: auto;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
     /* background-color: gray; */
+
+}
+
+.card4__info{
+    /* background-color: red; */
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding: 10px;
+    /* font-size: 10px; */
+    /* display: flex; */
+   
+}
+
+.card4__info a{
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+    
+}
+
+.card4__img{
+    width: 100%;
+    height: 250px;
 }
 
 .banner2{
