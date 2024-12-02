@@ -13,6 +13,7 @@
 .navbar{
     /* background-color: yellow !important; */
     color: black;
+    /* position: fixed; */
   
 }
 /* 
@@ -605,6 +606,9 @@ color: white !important;
     transition: 0.5s;
     cursor: pointer;
     position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .card3__overlay:hover{
@@ -612,8 +616,8 @@ color: white !important;
 }
 
 .badge{
-    width: 18%;
-    height: 40px;
+    width: 50px; /* Adjust size for mobile */
+    height: 40px; /* Adjust size for mobile */
     background-color: white;
     position: absolute;
     right: 10px;
@@ -1585,9 +1589,18 @@ select:focus
 }
 
 
-.mybadge{
-    right: 5px;
+/* .badge{
+    width: 40px;
+    height: 40px; 
+    font-size: 16px;
 }
+
+.mybadge{
+    width: 40px;
+    height: 40px; 
+    font-size: 16px;
+
+} */
 
 
 .cardInfo4{
