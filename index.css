@@ -1981,6 +1981,11 @@ select:focus
     /* background-color: blue !important; */
 }
 
+.badge{
+    width: 15%;
+    right: 10px !important;
+}
+
     .mybadge{
         width: 15%;
         right: 10px !important;
