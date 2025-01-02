@@ -1965,7 +1965,7 @@ select:focus
 }
 
     .mybadge{
-        width: 30%;
+        width: 15%;
         right: 10px !important;
     }
     
@@ -2247,9 +2247,11 @@ select:focus
         transform: scale(1.05);
     } */
     .card h1{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
     }
+
+    
    
     .card__overlay{
         height: 75px;
@@ -2262,6 +2264,7 @@ select:focus
         padding: 10px;
         
     }
+  
     
     
     .card__overlay:hover{
