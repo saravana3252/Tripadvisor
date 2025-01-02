@@ -616,8 +616,8 @@ color: white !important;
 }
 
 .badge{
-    width: 50px; /* Adjust size for mobile */
-    height: 40px; /* Adjust size for mobile */
+    width: 50px; 
+    height: 40px; 
     background-color: white;
     position: absolute;
     right: 10px;
@@ -725,7 +725,7 @@ color: white !important;
 .card4__overlay{
     height: 250px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(33, 33, 231, 0);
     transition: 0.5s;
     cursor: pointer;
     position: relative;
@@ -1589,18 +1589,35 @@ select:focus
 }
 
 
-/* .badge{
-    width: 40px;
-    height: 40px; 
-    font-size: 16px;
+
+.badge{
+    width: 37px;
+    height: 30px; 
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.mybadge{
-    width: 40px;
-    height: 40px; 
-    font-size: 16px;
+/* .mybadge{
+    width: 38px;
+    height: 30px; 
+    font-size: 20px;
 
 } */
+
+/* .badge{
+    width: 50px; 
+    height: 40px; 
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: black;
+    font-size: 25px;
+    border-radius: 30px;
+} */
+
 
 
 .cardInfo4{
