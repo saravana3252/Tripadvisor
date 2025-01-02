@@ -1981,9 +1981,14 @@ select:focus
     /* background-color: blue !important; */
 }
 
-   .badge{
-    width: 20%;
-   }
+.badge{
+    width: 37px;
+    height: 32px; 
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
     .mybadge{
         width: 14%;
